@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KishanCare.com</title>
+  <script src="./jquery-3.6.0.js"></script>
+  <script src="./jquery.color.plus-names-2.1.0.js"></script>
+  <script src="../bs_jq_react/jquery-3.6.0.js"></script>
+  <script src="../bs_jq_react/jquery.color.plus-names-2.1.0.js"></script>
+  <link rel="stylesheet" href="../bs_jq_react/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="headfooter.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+  <!--header-->
+  <div class="navbar">
+    <!-- logo start-->
+    <a href="Home.html" class="logo">
+      <img src="./image/Ag Logo.png" style="width: 100px; height: 90px;">
+    </a>
+    <!--logo end-->
+
+    <a href="Home.html"> Home</a> &ensp;
+    <a href="Aboutus.html"> About us</a> &ensp;
+    <a href="Product.html"> Product</a> &ensp;
+    <a href="Govt. yojana.html">Govt. Yojana</a> &ensp;
+
+    <a href="stroy.html">Sucess Stroy</a> &ensp;
+    <a href="enquiry form.html"> enquiry form</a> &ensp;
+    <a href="registration.html">Registration</a> &ensp;
+    <a href="login.html">Login </a> &ensp;
+
+  </div>
+  <!--new Div-->
+  <div>
+    <marquee behavior="left" direction="left"><a
+        href="https://www.nibsm.org.in/check-pm-kisan-samman-nidhi-status-list/">पीएम किसान सम्मान निधि लिस्ट 2022 |
+        Check Status at pmkisan.gov.in, पीएम किसान क़िस्त</a>
+      &ensp; <a
+        href="https://zeenews.india.com/hindi/india/madhya-pradesh-chhattisgarh/mp/wheat-procurement-start-in-madhya-pradesh-farmer-book-lot-for-sale-wheat-msp-of-wheat-in-mp-sdmp/1134708">MP
+        के किसानों के काम की खबर, गेहूं बेचने से पहले कर लें ये काम वरना होगी बड़ी परेशानी</a>
+    </marquee>
+  </div>
+  <!--Header end -->
+  <!--caroual slide-->
+  <!--caroual slide-->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="https://cdn.pixabay.com/photo/2016/10/25/13/16/pumpkin-1768857_960_720.jpg" class="d-block w-100" alt="..."width="400" height="400">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 style="color: red; font-size: 20px;">First slide label</h3>
+          <h3 style="color: red; font-size: 20px;">Some representative placeholder content for the first slide.</h3>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://cdn.pixabay.com/photo/2018/03/12/14/35/bottle-3219793_960_720.jpg" class="d-block w-100" alt="..."width="200" height="400">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 style="color: red;">HardWare product</h3>
+          <p style="color: red; font-size: 10px;">50% off all vagitable Product</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/ag tech2.jpg" class="d-block w-100" alt="..."width="400" height="400">
+        <div class="carousel-caption d-none d-md-block">
+          <h3  style="color: red;"> Oragnic Produt </h3>
+          <p style="color: red; font-size: 10px;">50 % off</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+
+  <!--today new-->
+  <h3 class="bg-white color-black">आज के फसल के भाव</h3>
+
+  <table class="table table table-white table-striped">
+    <thead>
+      <tr>
+        <th scope="col">S.no.</th>
+        <th scope="col">फसल का नाम</th>
+        <th scope="col">मध्य प्रदेश</th>
+        <th scope="col">पंजाब</th>
+        <th scope="col">महाराष्ट्र</th>
+        <th scope="col">हरियाणा</th>
+        <th scope="col">गुजरात</th>
+        <th scope="col">छत्तीसगढ़</th>
+        <th scope="col">उत्तर प्रदेश</th>
+        <th scope="col">राजस्थान</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+
+        <td>1</td>
+        <td>गेहूँ </td>
+        <td>1230</td>
+        <td>4506</td>
+        <td>4678</td>
+        <td>45687</td>
+        <td>4566</td>
+        <td>4568</td>
+        <td>4546</td>
+        <td>4125</td>
+
+      </tr>
+      <tr>
+
+        <td>2</td>
+        <td>चना</td>
+        <td>3000</td>
+        <td>3201</td>
+        <td>3120</td>
+        <td>3201</td>
+        <td>3210</td>
+        <td>2310</td>
+        <td>3210</td>
+        <td>32145</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>टमाटर </td>
+        <td>3214</td>
+        <td>3521</td>
+        <td>3241</td>
+        <td>3214</td>
+        <td>3124</td>
+        <td>3244</td>
+        <td>3214</td>
+        <td>3214</td>
+
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>टमाटर </td>
+        <td>4561</td>
+        <td>4152</td>
+        <td>4512</td>
+        <td>4569</td>
+        <td>4152</td>
+        <td>4512</td>
+        <td>4158</td>
+        <td>4875</td>
+
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>बाजरा</td>
+        <td>8456</td>
+        <td>4126</td>
+        <td>4584</td>
+        <td>9445</td>
+        <td>8452</td>
+        <td>1423</td>
+        <td>8456</td>
+        <td>8456</td>
+
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>मक्का</td>
+        <td>8456</td>
+        <td>6325</td>
+        <td>8456</td>
+        <td>8456</td>
+        <td>8456</td>
+        <td>8456</td>
+        <td>8456</td>
+        <td>4121</td>
+
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>गन्ना</td>
+        <td>5236</td>
+        <td>5236</td>
+        <td>5236</td>
+        <td>5412</td>
+        <td>5231</td>
+        <td>5213</td>
+        <td>5879</td>
+        <td>8456</td>
+
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>कपास</td>
+        <td>456</td>
+        <td>4123</td>
+        <td>4560</td>
+        <td>4512</td>
+        <td>1236</td>
+        <td>4123</td>
+        <td>4586</td>
+        <td>1423</td>
+      </tr>
+    </tbody>
+  </table>
+  </table>
+  <!--Product -->
+  <div class="products">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-7">
+             <div class="titlepage">
+               
+                <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptu
+                </span>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+             <div id="ho_bo" class="our_products">
+                <div class="product">
+                   <figure><img src="./image/pro1.png" alt="#"/></figure>
+                </div>
+                <h3>Mangoes For Juice</h3>
+                <span>Nam libero tempore</span>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non </p>
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+             <div id="ho_bo" class="our_products">
+                <div class="product">
+                   <figure><img src="./image/pro2.png" alt="#"/></figure>
+                </div>
+                <h3>Apple For Juice</h3>
+                <span>Nam libero tempore</span>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non </p>
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+             <div id="ho_bo" class="our_products">
+                <div class="product">
+                   <figure><img src="./image/pro3.png" alt="#"/></figure>
+                </div>
+                <h3>Orange For Juice</h3>
+                <span>Nam libero tempore</span>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non </p>
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+             <div id="ho_bo" class="our_products">
+                <div class="product">
+                   <figure><img src="./image/pro4.png" alt="#"/></figure>
+                </div>
+                <h3>Pineapple For Juice</h3>
+                <span>Nam libero tempore</span>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non </p>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!-- end our products -->
+  <!--product end-->
+  <!--brand promotion start-->
+  <div class="row row-cols-1 row-cols-md-3 g-4 border-1">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./image/ladyFinger.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">
+            <H3>भिण्डी</H3>
+          </h5>
+          <p class="card-text">
+          <h3> किश्म:-परभन क्रांति</h3> परभनी क्रांति- 1. इस भिंडी की किस्म पीत-रोगरोधी है|2. फल बुआई के लगभग 50 दिन बाद
+          आना शुरू हो जाते है|
+          3. फल गहरे हरे और 15 से 18 सेंटीमीटर लम्बे होते है| 4. इसकी पैदावार 9 से 12 टन प्रति हेक्टेयर है|</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./image/Patto.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">
+            <h3>आलू </h3>
+          </h5>
+          <p class="card-text">
+          <h3>कुफरी अलंकार </h3>अगर इस किस्म के आलू उगाए जाएं, तो फसल 70 दिनों में तैयार हो जाती है। इस किस्म में प्रति
+          हेक्टेयर के हिसाब से 200-250 क्विंटल तक की उपज होती है। </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./image/Pyaz.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="background-color: rgb(228, 171, 98);">
+            <h3>पूसा व्हाईट फ्लैट .</h3>
+          </h5>
+          <p class="card-text">
+            बाजार हम कभी-कभी सफेद रंग के प्याज भी देखते हैं, वह यही किस्म है. रोपाई के 125 से 130 दिन बाद में तैयार होने
+            वाली किस्म है. भंडारण क्षमता अच्छी होती है. प्रति हेक्टेयर 325 से 350 क्विंटल तक पैदावार हो सकती है </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---brand Promotion end-->
+  <!-- Footer -->
+  <footer class="text-center text-26px-start bg-#f3e7e7 text-muted border-5 border-success">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <div class="social-footer-icons">
+        <ul class="menu simple">
+
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"
+              style="font-size: 26px;"></i></a>&ensp;
+          <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"
+              style="font-size: 26px;"></i></a>&ensp;
+          <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"
+              style="font-size: 26px;"></i></a>&ensp;
+          <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"
+              style="font-size: 26px;"></i></a>&ensp;
+        </ul>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-3 md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              KishanCare.com website dedicate for agriculture work.
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i>jain nagar lalagti Bhopal</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              rajeshmekchand@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +91 7898709566</p>
+            <p><i class="fas fa-print me-3"></i> +91 8815006083</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: #74afe3(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">KishanCare.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+
+
+  <script src="../bs_jq_react/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

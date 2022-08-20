@@ -1,0 +1,58 @@
+
+.navbar{
+    width: 1350px;
+    height: 90px;
+    background-color: rgb(243, 241, 241);
+    font-size: 26px;
+    /* font-style: italic; */
+    
+  }
+  .navbar a{
+    color: black;
+    text-decoration: none;
+    
+  }
+ 
+  .navbar :hover{
+    background-color: none;
+  }
+ 
+    
+  
+     .headstyle a:hover {
+       background-color: #67eba0;
+     }
+ 
+     .socal-icons ul li {
+       float: left;
+       list-style: none;
+       padding: 12px;
+     }
+ 
+     .socal-icons ul {
+       padding-left: 0px;
+     }
+ 
+     .socal-icons ul li a {
+       background: white;
+       border-radius: 50%;
+       width: 50px;
+       height: 50px;
+       padding: 10px 14px;
+       color: white;
+     }
+ 
+     .socal-icons ul li a:hover {
+       background: #1e1e1e;
+       color: white;
+     }
+     .carousel-image > .item > img {
+        width:640px;
+        height:360px;
+      }
+      body{
+        background-image: url(./image/background\ .jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+       background-size: cover;
+    }
